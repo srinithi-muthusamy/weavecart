@@ -1,0 +1,28 @@
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.buy-now-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.image-container:hover .buy-now-button {
+  opacity: 1;
+}
+
+h1, .card-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.product-card {
+  font-family: "Poppins", sans-serif;
+}
